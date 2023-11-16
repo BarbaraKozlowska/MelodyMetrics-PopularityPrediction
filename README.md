@@ -19,14 +19,17 @@ Data Analytics Project Plan
 Goals
 Develop a predictive model for song popularity.
 Empower stakeholders to make data-driven decisions in song production, marketing, and distribution.
+
 Methodology
 Utilize the CRISP-DM framework, involving phases of understanding, data preparation, modeling, evaluation, and deployment.
 Train machine learning models, focusing on linear regression for predicting song popularity.
+
 Project Timeline and Milestones
 Data collection (Week 1)
 Model development (Week 2-4)
 Evaluation (Week 5)
 Deployment (Week 6)
+
 Data Analysis Process
 Data Selection and Collection
 Utilized the Melody Metrics dataset, synthetically generated for learning purposes.
@@ -34,16 +37,20 @@ Ensured adherence to ethical data usage practices, privacy/security measures, an
 Data Extraction and Preparation
 Standardized features using a StandardScaler.
 Used Linear Regression as the predictive model.
+
 Data Analysis
 Evaluated model performance using metrics such as Mean Squared Error and R-squared.
 Interpreted coefficients to understand feature impact on predicted popularity.
+
 Results
 Model Evaluation
 Assessed the accuracy of the linear regression model on the validation set.
 Considered both statistical and practical significance metrics.
+
 Key Takeaways
 Identified features with significant impact on song popularity.
 Provided actionable insights for artists and producers.
+
 Recommendations
 Consider Tempo Impact: Artists and producers should be mindful of the tempo's impact on predicted popularity. A positive coefficient suggests that an increase in song speed is associated with higher predicted popularity.
 
@@ -53,6 +60,7 @@ Dependencies
 pandas: Data manipulation and analysis.
 scikit-learn: Machine learning tools.
 matplotlib and seaborn: Data visualization.
+
 How to Run
 Ensure you have the required dependencies installed.
 Download the Melody Metrics dataset.
